@@ -1,0 +1,2295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Listing</name>
+    <description>Resale Market Listing</description>
+    <Style id="icon-1696-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1696-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1696-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1696-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1696-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>SOLD</name>
+      <Placemark>
+        <name>25 Swiss View Sold $5.42m</name>
+        <description><![CDATA[PSF: $2227<br>Land: 2433<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7909909,1.3485002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 Lorong Pisang Udang  SOLD $5.445M </name>
+        <description><![CDATA[PSF: $3025<br>Land: 1800<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7719251,1.343198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>40 Mount Sinai Drive SOLD @ $6.1M </name>
+        <description><![CDATA[PSD: $3274<br>Land: 1863<br>BuiltUp: 3500]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7814399,1.316857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18 Jln Jelita SOLD $8.2M</name>
+        <description><![CDATA[PSF:  $2224<br>Land: 3687<br>BuiltUp: 3600]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7875121,1.3155733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[103 King's Road SOLD $8.2m]]></name>
+        <description><![CDATA[PSF: $2158<br>Land: 3838<br>BuiltUp:]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8057178,1.3170373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>69 Namly Drive Sold</name>
+        <description><![CDATA[Land: 4037<br>BuiltUp: 2650]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.795973,1.3232502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Jalan Harom Setangkai SOLD @ $9.2M</name>
+        <description><![CDATA[PSF: $2922<br>Land: 3148<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8130327,1.3207537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>79 University Road SOLD @ $8.6M</name>
+        <description><![CDATA[PSF: $2312<br>Land: 3729<br>BuiltUp: 2600]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8176785,1.3290046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 Watten Heights SOLD @ $9.88M</name>
+        <description><![CDATA[PSF: $2631<br>Land: 3754<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.808711,1.3314802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>66 Coronation Road SOLD @ $10.26M</name>
+        <description><![CDATA[PSF: $2622<br>Land: 3905<br>BuildUp: 3500]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8057446,1.321751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>60 Kheam Hock Road SOLD @ $10.8M</name>
+        <description><![CDATA[PSF: $1461<br>Land: 7390<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8201026,1.3297732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>57A Duchess Avenue SOLD@$13.428M</name>
+        <description><![CDATA[PSF: $2498<br>Land: 5373<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.803671,1.3241665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>91 Coronation Rd SOLD @$13.888M</name>
+        <description><![CDATA[PSF: $2821<br>Land: 4923<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8045001,1.321751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>265 Holland Road SOLD @ $7.8M</name>
+        <description><![CDATA[PSF: $1822<br>Land: 4281<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7879673,1.3165771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>33 Holland Grove Drive SOLD @$10M</name>
+        <description><![CDATA[PSF: $2210<br>Land: 4524<br>BuiltUp: 1300]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7814831,1.3135007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 Jalan Layang Layang SOLD@$8M</name>
+        <description><![CDATA[PSF: $1439<br>Land: 5558<br>BuiltUp: 1400]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7676146,1.3437372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>139 Chun Tin Road SOLD @ $8.015M</name>
+        <description><![CDATA[PSF: $1848<br>Land: 4336<br>BuiltUp: 5100]]></description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            103.7705754,1.3444342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[40 Queen's Road SOLD @$9.8M]]></name>
+        <description><![CDATA[PSF: $2910<br>Land: 3367<br>BuiltUp:]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8089911,1.3206049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Jalan Istimewa SOLD @ $9.8M</name>
+        <description><![CDATA[PSF: $2809<br>Land: 3488<br>BuiltUp: 4500 ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7868567,1.3165565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 Hua Guan Avenue SOLD @ $11.25M</name>
+        <description><![CDATA[PSF: $2338<br>Land: 4811<br>BuiltUp: 4050]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7849015,1.3399059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Watten Heights SOLD @ $11.8M</name>
+        <description><![CDATA[PSF: $2020<br>Land: 5840<br>BuiltUp: 2400]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8083515,1.3315767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>71 Lasia Avenue Sold @ $8.558M</name>
+        <description><![CDATA[PSF: 3950<br>Land: 2380<br>BuiltUp: 2380]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7924777,1.3287429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5B Chancery Hill Road Sold @ $13.8M</name>
+        <description><![CDATA[PSF: $2267<br>Land: 6088<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8384994,1.3250527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9C Dyson Road Sold@$7.2M</name>
+        <description><![CDATA[PSF: $3054<br>Land: 2357<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8400423,1.3256409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18 Lotus Avenue SOLD @ $5.93M</name>
+        <description><![CDATA[PSF: $3425<br>Land: 1731<br>BuiltUp: 2760]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7936364,1.3300729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 Jalan Jintan Sold $5.75M</name>
+        <description><![CDATA[PSF: $3531<br>Land: 1629<br>BuiltUp: 2000]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8341646,1.305659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>38 Jalan Haji Alias SOLD @$7.5M</name>
+        <description><![CDATA[PSF: $1739<br>Land: 4200<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.794603,1.3233877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Mount Sinai Lane SOLD @ $11.8M</name>
+        <description><![CDATA[PSF: $2400<br>Land: 5630<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.7855238,1.3158707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>37 Dyson Road SOLD @ $7.8M</name>
+        <description><![CDATA[PSF: $2248<br>Land: 3470<br>BuiltUp: 3600]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            103.8405894,1.3246595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Available</name>
+      <Placemark>
+        <name>67 Toh Tuck Road $6,299,999</name>
+        <description><![CDATA[PSF: $1921<br>Land: 3279<br>BuiltUp: 4801]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7653356,1.3395438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>35 Namly Drive $6,500,000</name>
+        <description><![CDATA[PSF: $2919<br>Land: 2227<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7972605,1.3238669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>55A Yuk Tong Avenue $6,880,000</name>
+        <description><![CDATA[PSF: $2693<br>Land: 2555<br>BuiltUp: 4350]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7744041,1.3439136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20 Sunset Heights $20,000,000</name>
+        <description><![CDATA[PSF: $2,443<br>Land: 8187<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.767889,1.3270301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>38 Sian Tuan Ave $15,000,000</name>
+        <description><![CDATA[PSF: $2,529<br>Land: 5932<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7860122,1.3399745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[54H King's Rd $21,800,000]]></name>
+        <description><![CDATA[PSF: $2,428<br>Land: 8977<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.8072153,1.32065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15 Greenbank Park $9,400,000</name>
+        <description><![CDATA[PSF: $2,368<br>Land: 3970<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.7881522,1.3476098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>50 Grove Dr $11,900,000</name>
+        <description><![CDATA[PSF: $2,833<br>Land: 4200<br>BuiltUp: 5800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7830919,1.3124492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>31 Namly Cres $9,900,000</name>
+        <description><![CDATA[PSF: $2,524<br>Land: 3922<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7950567,1.3256557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>198 Eng Kong Garden $11,888,888</name>
+        <description><![CDATA[PSF: $1,713<br>Land: 6942<br>BuiltUp: 3500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7700209,1.3339971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>723 Bukit Timah Road $7,180,000</name>
+        <description><![CDATA[PSF: $2732<br>Land: 4200<br>BuiltUp: 4200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8010891,1.3292738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>79 Namly Dr $10,500,000</name>
+        <description><![CDATA[PSF: $2,283<br>Land: 4600<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.7956428,1.3235653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15 Dalkeith Rd $17,500,000</name>
+        <description><![CDATA[PSF: $3,513<br>Land: 4981<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8223044,1.3250406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>31 Ming Teck Park $9,700,000</name>
+        <description><![CDATA[PSF: $2,759<br>Land: 3516<br>BuiltUp: 3800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7872201,1.3187559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28A Toh Yi Drive $7,680,000</name>
+        <description><![CDATA[PSF:  $1,917<br> Land: 4006<br>BuiltUp: 4413]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7719124,1.3398233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Dyson Road  $7,800,000 </name>
+        <description><![CDATA[PSF:  $ 3,619<br> Land: 2155<br>BuiltUp: 4200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8400369,1.325909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>53 Moonbeam Terrace  $ 8,400,000 </name>
+        <description><![CDATA[PSF:  $ 2,270<br>Land: 3700<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7826053,1.3169496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24A Jalan Ampang  $ 8,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,603<br> Land: 3265<br>BuiltUp: 3078]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.7944695,1.321168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15 Greenleaf Place  $ 8,680,000 </name>
+        <description><![CDATA[PSF:  $ 2,572<br> Land: 3375<br>BuiltUp: 2626]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7860791,1.3248562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>63 Moonbeam Terrace  $ 8,800,000 </name>
+        <description><![CDATA[PSF:  $ 2,501<br> Land: 3519<br>BuiltUp: 3800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7823156,1.3165528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>27 Dyson Road  $ 9,400,000 </name>
+        <description><![CDATA[PSF:  $ 2,487<br>Land: 3779<br>BuiltUp: 3500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8400744,1.324933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>51 Ming Teck Park  $ 9,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,866<br> Land: 3315<br>BuiltUp: 2800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7878771,1.3197082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1D Buckley Road  $ 9,680,000 </name>
+        <description><![CDATA[PSF:  $ 3,231<br> Land: 2996<br>BuiltUp: 4100]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8399776,1.3164707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>51 Greenwood Avenue  $ 9,800,000 </name>
+        <description><![CDATA[PSF:  $ 2,900<br> Land: 3379<br>BultUp: 3500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.805428,1.3323446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2B Greenbank Park  $ 11,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,241<br> Land: 4909<br>BuiltUp: 5600]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7884568,1.3471959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harlyn Road  $ 10,080,000 </name>
+        <description><![CDATA[PSF:  $ 2,688<br> Land: 3750<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8231535,1.3244305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>27 or 27A Duchess Road  $ 10,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,781<br> Land: 3775<br>BuiltUp: 2773]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8077078,1.3238839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>33 Mount Sinai Drive  $ 10,380,000 </name>
+        <description><![CDATA[PSF:  $ 2,654<br> Land: 3911<br>BuiltUp: 3517]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7807747,1.3170769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16C Lornie Road  $ 10,800,000 </name>
+        <description><![CDATA[PSF:  $ 1,940<br> Land: 5566<br>BuiltUp: 6500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8203536,1.3383125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>634 Dunearn Road  $ 11,100,000 </name>
+        <description><![CDATA[PSF:  $ 2,332<br> Land: 4760<br>BuiltUp: 3531]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8000403,1.3304224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>61 Greenleaf View  $ 11,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,614<br> Land: 4400<br>BuiltUp: 4250]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7867566,1.3224845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>35 Mount Sinai Drive  $ 10,800,000 </name>
+        <description><![CDATA[PSF:  $ 2,761<br> Land: 3911<br>BuiltUp: 3517]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7805548,1.3172002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 Watten Heights  $11,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,439<br> Land: 4716<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8101754,1.3290669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>68 Hua Guan Avenue  $12,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,648<br> Land: 4720<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7848639,1.341311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>25 Grove Lane  $12,800,000 </name>
+        <description><![CDATA[PSF:  $ 3,089<br> Land: 4144<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.784577,1.3141294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 Sian Tuan Avenue  $12,990,000 </name>
+        <description><![CDATA[PSF:  $ 2,606<br> Land: 4985<br>BuiltUp: 5094]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7856241,1.3384174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>85 Duchess Ave  $ 13,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,606<br> Land: 4238<br>BuiltUp: 5094]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8026764,1.3237314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>99C Sunset Wy  $ 13,800,000 </name>
+        <description><![CDATA[PSF:  $ 1,774<br> Land: 7778<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7650252,1.3264187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17A Barker Rd  $ 13,880,000 </name>
+        <description><![CDATA[PSF:  $ 2,833<br>Land: 4900<br> BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.834224,1.3211106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8A Berrima Rd  $ 13,980,000 </name>
+        <description><![CDATA[PSF:  $ 2,909<br> Land: 4805<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8241467,1.3232726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22B Kheam Hock Rd  $ 14,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,732<br> Land: 5124<br>BuiltUp: 5201]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8208394,1.3268201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>31 Coronation Rd  $ 14,800,000 </name>
+        <description><![CDATA[PSF:  $ 2,711 <br>Land: 5460<br>BuiltUp: 6500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.808966,1.3216954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11A Barker Rd  $ 14,900,000 </name>
+        <description><![CDATA[PSF:  $ 2,280<br> Land: 6535<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.833991,1.3202265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 Namly Garden  $ 15,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,679<br>Land: 5600<br> BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7975103,1.3248405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>73 Kheam Hock Rd  $ 15,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,650<br> Land: 5660<br>BuiltUp: 9000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8196871,1.328184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>27 Vanda Dr  $ 16,500,000 </name>
+        <description><![CDATA[PSF:  $ 3,396<br> Land: 4858<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8003437,1.3332086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>44 Jln Ampang  $ 17,500,000 </name>
+        <description><![CDATA[PSF: <br>Land: 7065<br>BuiltUp:  $ 2,477]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7937002,1.3212754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15 Narooma Rd  $18,200,000 </name>
+        <description><![CDATA[PSF:  $3,634<br> Land: 5008<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8219124,1.325646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24 Kingsmead Rd  $19,000,000 </name>
+        <description><![CDATA[PSF: $2,632 <br>Land: 7220<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8052744,1.3198448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2 Holland Grove Walk  $19,600,000 </name>
+        <description><![CDATA[PSF:  $2,613<br> Land: 7500<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7811232,1.3147422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Jln Ampang  $20,000,000 </name>
+        <description><![CDATA[PSF:  $2,954<br> Land: 6770<br>BuiltUp: 8800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7951905,1.321464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>36 Gentle Rd  $20,000,000 </name>
+        <description><![CDATA[PSF:  $2,713<br> Land: 7373<br>BuiltUp: 9500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8391397,1.3196163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22 Tudor Close  $20,000,000 </name>
+        <description><![CDATA[PSF:  $3,734<br>Land: 5356<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8193441,1.3271412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>110 Coronation Rd W  $21,000,000 </name>
+        <description><![CDATA[PSF:  $2,069<br> Land: 10150<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7975133,1.3219589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Chancery Hill Walk  $22,000,000 </name>
+        <description><![CDATA[PSF:  $2,222<br> Land: 9900<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8391576,1.3236156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Merryn Rd  $22,800,000 </name>
+        <description><![CDATA[PSF:  $2,533<br>Land: 9000<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8229526,1.3281364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>107 Sixth Ave  $23,000,000 </name>
+        <description><![CDATA[PSF:  $2,719<br> Land: 8460<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7942394,1.3280595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>119 Coronation Rd W  $24,880,000 </name>
+        <description><![CDATA[PSF:  $3,362<br> Land: 7400<br>BuiltUp: 6800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.798207,1.322379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6 Sunset Ave  $28,800,000 </name>
+        <description><![CDATA[PSF:  $2,542<br> Land: 11331<br>BuiltUp: 7500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.803126,1.334565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>283 Holland Rd  $6,800,000 </name>
+        <description><![CDATA[PSF:  $2,771<br> Land: 2454<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.7868689,1.3175746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>98 Coronation Rd  $6,888,888 </name>
+        <description><![CDATA[PSF:  $2,759<br> Land: 2497<br>BuiltUp: 2088]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8040956,1.3229849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7A Mount Sinai Ln  $8,180,000 </name>
+        <description><![CDATA[PSF:  $3,246<br> Land: 2520<br>BuiltUp: 3300]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7852615,1.315757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>73 University Rd  $10,000,000 </name>
+        <description><![CDATA[PSF:  $2,665<br> Land: 3753<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8175962,1.3287087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>99 Duchess Ave  $10,500,000 </name>
+        <description><![CDATA[PSF:  $2,917<br> Land: 3600<br>BuiltUp: 4900]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8023577,1.3236307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20A Merryn Rd  $15,000,000 </name>
+        <description><![CDATA[PSF:  $3,321<br> Land: 4517<br>BuiltUp: 5570]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8237315,1.3274663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>26 Berrima Rd  $15,900,000 </name>
+        <description><![CDATA[PSF:  $3,067<br> Land: 5185<br>BuiltUp: 3200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8238544,1.3256945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13 Vanda Cres  $16,500,000 </name>
+        <description><![CDATA[PSF:  $3,469<br> Land: 4757<br>BuiltUp: 8400]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7988877,1.3334205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>107 Sixth Ave  $23,000,000 </name>
+        <description><![CDATA[PSF:  $2,719<br> Land: 8460<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7941918,1.3280307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>124A Coronation Rd W  $ 23,500,000 </name>
+        <description><![CDATA[PSF:  $ 2,650<br> Land: 8869<br>BuiltUp: 8000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.798487,1.322371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Sixth Ave  $ 25,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,967<br> Land: 8426<br>BuiltUp: 8956]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7953747,1.331067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6 Namly Ave  $ 34,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,361<br> Land: 14400<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8013579,1.328147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>102 Toh Yi Dr  $ 12,800,000 </name>
+        <description><![CDATA[PSF:  $ 1,598<br> Land: 8011<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7713672,1.3370933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Jln Elok  $ 6,900,000 </name>
+        <description><![CDATA[PSF:  $ 4,182<br> Land: 1650<br>BuiltUp: 3993]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.835239,1.3063305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dublin Road  $ 6,480,000 </name>
+        <description><![CDATA[PSF:  $ 2,519<br> Land: 2572<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8397303,1.2983871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>101A Sunset Wy  $ 14,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,278<br> Land: 6145<br>BuiltUp: 4200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7655013,1.3267392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24 Balmoral Park  $ 28,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,993<br> Land: 9354<br>BuiltUp: 3800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8294703,1.3153732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>583 Sixth Ave  $ 12,000,000 </name>
+        <description><![CDATA[PSF:  $ 2,547<br> Land: 4712<br>BuiltUp: 3800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7887461,1.3186898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>51 Jln Bahasa  $ 9,980,000 </name>
+        <description><![CDATA[PSF:  $ 2,477<br> Land: 4029<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.818411,1.329214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kismis Avenue  $ 7,300,000 </name>
+        <description><![CDATA[PSF:  $ 1,825<br> Land: 4000<br>BuiltUp: 3200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7730377,1.3358327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 Sunset Dr  $ 17,990,000 </name>
+        <description><![CDATA[PSF:  $ 1,855<br>Land: 9700<br> BuiltUp:]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7672285,1.3254605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2 Greenleaf Grove  $ 9,700,000 </name>
+        <description><![CDATA[PSF:  $ 2,603<br> Land: 3726<br>BuiltUp: 3715]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.786482,1.3233956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>31 Greenridge Cres  $ 7,800,000 </name>
+        <description><![CDATA[PSF:  $ 1,844<br> Land: 4230<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7664934,1.3332786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11A Barker Rd  $ 14,900,000 </name>
+        <description><![CDATA[PSF:  $ 2,282<br> Land: 6530<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.833991,1.3202265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 Greenleaf Dr  $ 11,880,000 </name>
+        <description><![CDATA[PSF:  $ 3,148<br> Land: 3774<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7835404,1.3220832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Robin Rd  $ 6,500,000 </name>
+        <description><![CDATA[PSF:  $ 4,025<br> Land: 1615<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8286573,1.3183991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>90 Yuk Tong Ave  $ 4,880,000 </name>
+        <description><![CDATA[PSF:  $ 2,299<br> Land: 2123<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7723877,1.3453969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6 Jln Elok $5,800,000</name>
+        <description><![CDATA[PSF: $3,222<br>Land: 1800<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8357065,1.3061058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Lornie Walk $15,000,000</name>
+        <description><![CDATA[PSF: $2,365<br>Land: 6342<br>BuiltUp: 5700]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8202325,1.3391272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>32 Watten Terrace</name>
+        <description><![CDATA[PSF: $3,013<br>Land: 3983<br>BuiltUp: 2000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.807956,1.3281734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3A Sunset Grove $5,500,000</name>
+        <description><![CDATA[PSF: $2,642<br>Land: 2082<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.7652946,1.3252553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>58 Namly Garden</name>
+        <styleUrl>#icon-1899-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            103.7941019,1.3253525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24 Redwood Ave $8,200,000</name>
+        <description><![CDATA[PSF: $2,579<br>Land: 3180<br>BuiltUp: 1300]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7911596,1.3319304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>98 Coronation Rd W $8,900,000</name>
+        <description><![CDATA[PSF: $4,520<br>Land: 1969<br>BuiltUp: 3500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7965422,1.3214291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>75 Hua Guan Ave $9,288,000</name>
+        <description><![CDATA[PSF: $2,326<br>Land: 3993<br>BuiltUp: 4300]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7851783,1.342686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>291 River Valley Rd $8,000,000</name>
+        <description><![CDATA[PSF: $4,240<br>Land: 1887<br>BuiltUp: 2950]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8396459,1.2957387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Holland Grove Ln $24,000,000</name>
+        <description><![CDATA[PSF: $2,848<br>Land: 8426<br>BuiltUp: 8900]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7817414,1.31405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20 Harlyn Rd $16,680,000</name>
+        <description><![CDATA[PSF: $3,097<br>Land: 5385<br>BuiltUp: 7500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8235551,1.3249778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>29 Grove Ln $11,900,000</name>
+        <description><![CDATA[PSF: $2,872<br>Land: 4144<br>BuiltUp: 4200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7846883,1.3139556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Greenwood Ave $9,380,000</name>
+        <description><![CDATA[PSF: $3,899<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8069066,1.3309763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[54A King's Rd $13,000,000]]></name>
+        <description><![CDATA[PSF: $3,712<br>Land: 3502<br>BuiltUp: 4800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8078939,1.3202747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>476 Holland Rd $8,500,000</name>
+        <description><![CDATA[PSF: $3,890<br>Land: 2185<br>BuiltUp: 4693]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.785709,1.323988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22A Moonbeam Walk $10,000,000</name>
+        <description><![CDATA[PSF: $3,333<br>Land: 3000<br>BuiltUp: 4200]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.7810805,1.318538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>62 Kheam Hock Rd $16,380,000</name>
+        <description><![CDATA[PSF: $1,558|<br>Land: 10516<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.8200497,1.3299094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>68 Ming Teck Park $9,800,000</name>
+        <description><![CDATA[PSF: $2,693<br>Land: 3639<br>BuiltUp: 2982]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7890936,1.3207251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 Tham Soong Ave $9,500,000</name>
+        <description><![CDATA[PSF: $2,909<br>Land: 3266<br>BuiltUp: 5256]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.773724,1.3442377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>50 University Rd $12,900,000</name>
+        <description><![CDATA[PSF: $2,868<br>Land: 4498<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8175053,1.3257789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>41 Mount Sinai Rd $12,800,000</name>
+        <description><![CDATA[PSF: $1,988<br>Land: 6440<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7853678,1.3144244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18 Harlyn Rd $16,680,000</name>
+        <description><![CDATA[PSF: $3,125<br>Land: 5338<br>BuiltUp: 7500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8234035,1.3250775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>48 Hillcrest Rd $9,500,000</name>
+        <description><![CDATA[PSF: $3,104<br>Land: 3061<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8074384,1.3295109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13 Gentle Rd $10,000,000</name>
+        <description><![CDATA[PSF: $2,436<br>Land: 4105<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8405998,1.3198699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18 Moonbeam Dr $8,000,000</name>
+        <description><![CDATA[PSF: $2,232<br>Land: 3585<br>BuiltUp: 3585]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.782234,1.3174217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22 Jln Kelawar $18,000,000</name>
+        <description><![CDATA[PSF: $3,676<br>Land: 4896<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8265663,1.3009581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Redwood Ave $18,000,000</name>
+        <description><![CDATA[PSF: $3,445<br>land: 5225<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7915936,1.3314831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Goldhill Ave $8,380,000</name>
+        <description><![CDATA[PSF: $3,894<br>Land: 2152<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8335627,1.3200293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>38 Lotus Ave $12,000,000</name>
+        <description><![CDATA[PSF: $2,857<br>Land: 4200<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7929158,1.3287919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>202 Eng Kong Garden $8,900,000</name>
+        <description><![CDATA[PSF: $2,445<br>Land: 3640<br>BuiltUp: 4500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7695156,1.3339869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12A Barker Rd $13,000,000</name>
+        <description><![CDATA[PSF: $2,222<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8342366,1.3199979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>33 Jln Lim Tai See $12,400,000</name>
+        <description><![CDATA[PSF: $2,450<br>Land: 9510<br>BuiltUp: 7500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7940649,1.3222214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>33 Greenbank Park $18,000,000</name>
+        <description><![CDATA[PSF: $1,893<br>Land: <br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.7881331,1.3487758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>52 Sian Tuan Ave $10,500,000</name>
+        <description><![CDATA[PSF: $2,476<br>Land: 4240<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.785693,1.340736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Tan Boon Chong Ave $23,800,000</name>
+        <description><![CDATA[PSF: $2,196<br>Land: 10840<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7889384,1.3157517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>38 Greenleaf Rd $9,500,000</name>
+        <description><![CDATA[PSF: $2,401<br>Land: 3956<br>BuiltUp: 2300]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.78712,1.320621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>60 Eng Kong Dr $6,900,000</name>
+        <description><![CDATA[PSF: $3,941<br>BuiltUp: 3940]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.766974,1.3328881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>119 Coronation Rd W  $24,880,000 </name>
+        <description><![CDATA[PSF:  $3,362<br> Land: 7400<br>BuiltUp: 6800]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.798207,1.322379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>31 Jln Lim Tai See $12,500,000</name>
+        <description><![CDATA[PSF: $2,196<br>Land: 5692<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7940776,1.322208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>92 Grove Dr $6,000,000</name>
+        <description><![CDATA[PSF: $2,957<br>Land: 2029<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7851096,1.3117091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>49 Mount Sinai Ave $8,999,999</name>
+        <description><![CDATA[PSF: $2,609<br>Land: 3450<br>BuiltUp: 5118]]></description>
+        <styleUrl>#icon-1696-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.7801366,1.3149808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>58 Greenleaf Rd $15,130,000</name>
+        <description><![CDATA[PSF: $2,891<br>Land: 5234<br>BuiltUp: 8448]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7868849,1.3212945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>150C Coronation Rd W $8,500,000</name>
+        <description><![CDATA[PSF: $2,541<br>Land: 3345<br>BuiltUp: 3520]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.8003318,1.3220318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>287 Holland Rd $7,880,000</name>
+        <description><![CDATA[PSF: $2,966<br>Land: 2657<br>BuiltUp: 5138]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7865995,1.3176931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 Gilstead Rd $16,230,000</name>
+        <description><![CDATA[PSF: $2,223<br>Land: 7301<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.838903,1.3193087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>162 Duchess Ave $13,350,000</name>
+        <description><![CDATA[PSF: $3,898<br>Land: 3425<br>BuiltUp :8000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8002602,1.3241238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>107 Jln Haji Alias $12,000,000</name>
+        <description><![CDATA[PSF: $2,388<br>Land: 5026<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7936233,1.3237623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[107 King's Rd $8,500,000]]></name>
+        <description><![CDATA[PSF: $3,269<br>Land: 2600<br>BuiltUp: 3700]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8053256,1.3169786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>63 Toh Tuck Rd $6,300,000</name>
+        <description><![CDATA[PSF: $1,921<br>Land: 3279<br>BuiltUp: 4800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.765785,1.3395882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>79 Lasia Ave $22,500,000</name>
+        <description><![CDATA[PSF: $2,350<br>Land: 9576<br>BuiltUp: 5200]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.7922627,1.3279538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greenleaf Drive $10,800,000</name>
+        <description><![CDATA[PSF: $3,010<br>Land: 3588<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7854483,1.3226847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>62 Namly Ave $13,800,000</name>
+        <description><![CDATA[PSF: $2,710<br>Land: 5092<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.797346,1.3261028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17A Barker Rd $16,000,000</name>
+        <description><![CDATA[PSF: $3,267<br>Land: 4897<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.834224,1.3211106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3A Holland Grove Dr $9,500,000</name>
+        <description><![CDATA[PSF: $2,544<br>Land: 3734<br>BuiltUp: 5500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7826932,1.3147927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>29 Dyson Rd $11,800,000</name>
+        <description><![CDATA[PSF: $2,327<br>Land: 5071<br>BuiltUp: 3800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8401705,1.3248268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 Mount Sinai View $6,999,999</name>
+        <description><![CDATA[PSF: $4,113<br>Land: 1702<br>BuiltUp: 2500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7814514,1.3173409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Merryn Rd $17,800,000</name>
+        <description><![CDATA[PSF: $2,223<br>Land: 8007<br>BuiltUp: 5300]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.8222713,1.3278667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2 Jln Jambu Ayer $8,500,000</name>
+        <description><![CDATA[PSF: $2,263<br>Land: 3756<br>BuiltUp: 2000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7882834,1.3349164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>75 Ming Teck Park $8,850,000</name>
+        <description><![CDATA[PSF: $2,675<br>Land: 3308<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7877063,1.3189859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>40 Tudor Cl $11,000,000</name>
+        <description><![CDATA[PSF: $2,736<br>Land: 4021<br>BuiltUp: 3500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8190067,1.3269249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Lengkok Angsa $13,500,000</name>
+        <description><![CDATA[PSF: $5,413<br>Land: 2494<br>BuiltUp: 3400]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8302161,1.3014257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>121 Coronation Rd W $17,000,000</name>
+        <description><![CDATA[PSF: $2,071<br>Land: 8210<br>BuiltUp: 4000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7981731,1.3225819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1D Chancery Ln $23,000,000</name>
+        <description><![CDATA[PSF: $3,010<br>Land: 7640<br>BuiltUp: 8800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8365027,1.3183344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Novena Terrace $6,500,000</name>
+        <description><![CDATA[PSF: $2,632<br>Land: 2470<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.842654,1.3211787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>94 Namly Pl $21,500,000</name>
+        <description><![CDATA[PSF: $2,865<br>Land: 7504<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7964924,1.3252962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>35 Tan Sim Boh Rd $22,000,000</name>
+        <description><![CDATA[PSF: $2,157<br>Land: 10200<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.840406,1.3255372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>103 Jln Haji Alias $19,800,000</name>
+        <description><![CDATA[PSF: $2,346<br>Land: 8440<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.793916,1.3237007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>82 Sunset Wy $9,000,000</name>
+        <description><![CDATA[PSF: $1,765<br>Land: 5100<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7659529,1.3248062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>32 Greenleaf Vw $12,990,000</name>
+        <description><![CDATA[PSF: $3,168<br>Land: 2121<br>BuiltUp: 7000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.78524,1.3218912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>61 Duchess Ave $13,800,000</name>
+        <description><![CDATA[PSF: $2,690<br>Land: 5130<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8034247,1.3238488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 Fernhill Cres $23,800,000</name>
+        <description><![CDATA[PSF: $3,692<br>Land: 6447<br>BuiltUp: 20000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8245714,1.3128673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 Jln Ilmu $9,900,000</name>
+        <description><![CDATA[PSF: $3,107<br>Land: 3186<br>BuiltUp: 4100]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8179459,1.3289718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>30 Maple Ave $13,000,000</name>
+        <description><![CDATA[PSF: $2,858<br>Land: 4549<br>BuiltUp: 6000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7916007,1.330048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Duchess Pl $11,200,000</name>
+        <description><![CDATA[PSF: $3,423<br>Land: 3272<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8020848,1.3245324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>49 Yuk Tong Ave $8,280,000</name>
+        <description><![CDATA[PSF: $2,573<br>Land: 3218<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7744065,1.3434551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12B Coronation Rd $12,900,000</name>
+        <description><![CDATA[PSF: $3,230<br>Land: 3994<br>BuiltUp: 5920]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8096151,1.3230699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>44 Coronation Dr $10,200,000</name>
+        <description><![CDATA[PSF: $2,576<br>L:and: 3960<br>BuiltUp: 3000]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            103.8057295,1.3229453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>278 Dunearn Rd $13,000,000</name>
+        <description><![CDATA[PSF: $2,435<br>Land: 5339<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8182408,1.3232847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>50 Chun Tin Rd $6,800,000</name>
+        <description><![CDATA[PSF: $2,132<br>Land: 3189<br>BuiltUp: 1800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7725251,1.3420353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[7 King's Walk $12,950,000]]></name>
+        <description><![CDATA[PSF: $3,032<br>Land: 4271<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8028012,1.3174706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13 Fir Ave $9,800,000</name>
+        <description><![CDATA[PSF: $3,039<br>Land: 3225<br>BuiltUp: 5000]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7917676,1.3319961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>80 Eng Kong Pl $8,000,000</name>
+        <description><![CDATA[PSF: $2,383<br>Land: 3357<br>BuiltUp: 5366]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7666969,1.3341388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>29 Sunset Terrace $10,000,000</name>
+        <description><![CDATA[PSF: $1,771<br>Land: 5645<br>BuiltUp: 2800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7663807,1.3247728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2A Paterson Hill $30,000,000</name>
+        <description><![CDATA[PSF: $3,654<br>Land: 8210<br>BuiltUp: 6500]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8290811,1.3015287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 Niven Rd $5,000,000</name>
+        <description><![CDATA[PSF: $3,799<br>BuiltUp: 1800]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.8493954,1.3027505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>99 Grove Dr $7,800,000</name>
+        <description><![CDATA[PSF: $3,110<br>Land: 2508<br>BuiltUp: 3175]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7851299,1.3119423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 Mount Sinai Ave $9,880,000</name>
+        <description><![CDATA[PSF: $2,304<br>Land: 4289<br>BuiltUp: ]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7823137,1.3171087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>40 Mount Sinai Ave $14,800,000</name>
+        <description><![CDATA[PSF: $2,691<br>Land: 5500<br>BuiltUp: 5200]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7806245,1.3158286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>122 Coronation Rd $12,500,000</name>
+        <description><![CDATA[PSF: $2,900<br>Land: 4310<br>BuiltUp: 5300]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.803389,1.3231044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>68 Cheng Soon Garden $11,000,000</name>
+        <description><![CDATA[PSF: $1,502<br>Land: 7325<br>BuiltUp: 4081]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.7721193,1.3345455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6B Barker Rd $6,980,000</name>
+        <description><![CDATA[PSF: $4,058<br>Land: 1720<br>BuiltUp:]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            103.834059,1.3193337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>detached</name>
+    </Folder>
+  </Document>
+</kml>
